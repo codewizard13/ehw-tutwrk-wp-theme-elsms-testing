@@ -1,0 +1,76 @@
+/*
+MODULE STYLES
+- Description: Modules or components are made of multiple elements and can have quite complex styles. Tables are complex enough that they can also be considered a module. Not every HTML with multiple parts are in the MODULE section (e.g., figure goes in pix.css).
+______________________________________________________________________*/
+
+/* 
+MODULE: Table List - A flex list of divs that look like table rows. Used with Echo Knowledge Base plugin
+*/
+
+.table-list {
+  row-gap: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+/* TABLE LIST ROW */
+.table-list .eh-row {
+  background: gainsboro;
+  display: flex;
+  border-bottom: solid 1px brown;
+}
+.table-list .eh-col {
+  padding: 1em;
+}
+.table-list .eh-col:nth-of-type(2) {
+  flex: 1;
+  border-left: 1px solid;
+}
+
+.table-list img,
+.table-list figure {
+  margin: 0;
+}
+
+.table-list img[class^="wp-image"] {
+  min-width: 120px;
+  margin: 0;
+}
+
+.table-list img[class^="wp-image"] + figcaption {
+  background: aliceblue;
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  font-size: 0.8rem;
+  width: 100%;
+  padding: 0.4rem;
+}
+
+.table-list ul,
+.table-list ol {
+  margin-left: 1em;
+}
+
+#eckb-article-content .table-list img {
+  box-shadow: none;
+}
+
+
+
+
+.gallery-list {
+  background: lightseagreen;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 12.5rem);
+  grid-gap: .5em;
+}
+
+.gallery-list .eh-col {
+  padding: .5em;
+}
+
+.gallery-list .eh-col > * {
+  width: 100%;
+  height: 100%;
+}

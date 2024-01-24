@@ -1,0 +1,27 @@
+/*
+STYLES FOR:  Echo Knowledge Base plugin
+*/
+
+/* IMAGES */
+
+#eckb-article-content img {
+  border: solid 1px gray;
+  box-shadow: 4px 4px 8px -2px #000000;
+}
+
+#eckb-article-content img.alignleft {
+margin: 0;
+}
+#eckb-article-content img.alignright {
+margin-left: 2.2rem;
+}
+
+
+/* HEADINGS */
+
+h3[data-id^="articleTOC"] {
+  background: cadetblue;
+  color: white;
+  padding: .3rem .6rem;
+  margin: 1em 0;
+}

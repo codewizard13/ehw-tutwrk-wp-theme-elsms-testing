@@ -1,0 +1,28 @@
+/*
+BASE STYLES
+*/
+
+
+/* NORMALIZE */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* ATOMIC ELEMENTS */
+
+/* Headings */
+
+#eckb-article-content h1, h2, h3, h4, h5, h6 {
+  margin: .3rem 0 1rem 0;
+  padding: 0;
+}
+
+/* COLORS */
+
+
+/* TYPOGRAPHY */
+

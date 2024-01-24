@@ -1,0 +1,35 @@
+/*
+Theme Name: Elijah Streams Astra Child
+Theme URI: https://elijahstreams.com/
+Template: astra
+Author: Eric Hepperle for Elijah List Ministries / Elijah Streams
+Author URI: https://elijahstreams.com
+
+Description: An Astra child theme for the Elijah Streams website.
+
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog, KB, knowledge-base, wiki, intranet, internal
+Version: 4.09
+
+Updated: 2023-09-01
+*/
+
+
+/******** Table of contents ---------------------------------------
+
+-- base imports
+-- plugin imports
+
+*********/
+
+/* base imports */
+@use './styles/base';
+@use './styles/pix';
+@use './styles/quotes';
+@use './styles/modules';
+
+/* plugin imports */
+@use './styles/pi/elementor';
+@use './styles/pi/embedpress';
+@use './styles/pi/echokb';
+@use './styles/pi/dynamico';
+

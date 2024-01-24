@@ -1,0 +1,10 @@
+/*
+STYLES FOR:  Images, Figures, Pix, Graphics
+______________________________________________________________________*/
+
+/* PIX - IMAGES - FIGURES */
+
+/* - Images wrapped in a P tag */
+p:has(> img) {
+  margin: 0
+}

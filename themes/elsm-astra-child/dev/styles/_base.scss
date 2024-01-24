@@ -1,0 +1,33 @@
+/* 
+- Base Styles
+______________________________________________________________________*/
+
+/* NORMALIZE */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* ATOMIC ELEMENTS */
+
+/* Headings */
+
+#eckb-article-content h1, h2, h3, h4, h5, h6 {
+  margin: .3rem 0 1rem 0;
+  padding: 0;
+}
+
+/* COLORS */
+
+
+/* TYPOGRAPHY */
+
+
+/* Remove margin bottom */
+.ehw-mb0,
+.ehw-mb0 p:only-of-type {
+  margin-bottom: 0 !important;
+}
