@@ -1,4 +1,4 @@
-name: Deploy to production
+name: Deploy to ELSMS production
 on:
   push:
     branches:
